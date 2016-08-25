@@ -4,6 +4,12 @@
   <groupId>Retigence</groupId>
   <artifactId>Databse1</artifactId>
   <packaging>war</packaging>
+   <distributionManagement>
+        <repository>
+            <id>nexus-site</id>
+            <url>http://central_nexus/server</url>
+        </repository>
+    </distributionManagement>
   <version>0.0.1-SNAPSHOT</version>
   <name>Databse1 Maven Webapp</name>
   <url>http://maven.apache.org</url>
